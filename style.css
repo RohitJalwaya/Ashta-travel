@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+.background{
+   
+    height: 100px;
+    
+     background:rgba(0, 0, 0, 0.6) url('../img/gaon.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    overflow: scroll;
+
+}
+
+header{
+    width: 100%;
+    
+ } 
+ .navbar{ 
+    overflow: hidden;
+    height: 13vh; 
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase; 
+    position: fixed;
+    top: 0;
+
+
+} 
+
+.navbar a{
+    color:white;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.logo{
+    position: relative;
+    top: 22px;
+    left: 15px;
+    height: 13vh;
+    color: azure;
+    
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 133px;
+    
+
+}
+.menu a{
+    text-decoration: none;
+}
+.leftNav{
+width: 20%;
+display: flex;
+
+}
+.inputTextSearch{
+    height: 3vh;
+    position: relative;
+    top: 11px;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+  }
+
+.btn{
+  border-radius: 5px;
+  padding: 4px;
+  background-color: chocolate;
+  cursor: pointer;
+
+}
+
+.sectionmain{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} 
+.mainText{
+    width: 50%;
+}
+ .mainImage{
+   
+    transition: 0.5s ease;
+    height: 300px;
+    width: 310px;
+    margin: 20px;
+    margin-left: 150px; 
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+} 
+.mainImage:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+
+.mainImage img{
+    height:100%;
+    width: 100%;
+}
+
+ .sectionparaOne{
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+}
+.sectionparaTwo{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+} 
+/*.btn-1{
+    text-decoration: none;
+    padding: 12px,30px; 
+    
+     color: rgb(20, 19, 19);
+    
+     font-size: 22px;
+     font-weight: 800;
+} */
+.btn-1{
+    border-radius: 5px;
+  padding: 4px;
+  background-color: rgb(33, 175, 81);
+  cursor: pointer;
+  text-decoration: none;
+}
+.OurServices{
+    margin-left: 115px;
+    padding: 28px;
+}
+.OurServices h1{
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.6);
+}
+
+ .travel{ 
+    
+     display: grid; 
+   
+     grid-template-columns: repeat(2,auto);
+    width: 100%; 
+    
+ } 
+
+
+.card {
+    transition: 0.5s ease;
+    height: 300px;
+    width: 310px;
+    margin: 20px;
+    margin-left: 150px; 
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+    
+      
+       } 
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}       
+ .card img{
+     height: 200px;
+     width: 100%;
+     
+       }
+.cardText{
+    width: 100%;
+    height: 100px;
+    
+}
+.cardText h3{
+    color:black;
+}
+.contactform{
+    height: 600px;
+    width: 600px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+    margin-left: 242px;
+    
+}
+.contactform h1{
+    text-shadow:3px 3px 1px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    width: 100%; 
+    margin: 22px 0px;
+    
+  }
+  .container input,textarea,button{
+     
+        background: none;
+        width: 75%;
+        left: 12px;
+        margin: 12px 0;
+        padding: 10px 21px;
+        
+        border:1px solid black;
+        outline:rgba(12, 11, 11, 0.993);
+        
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+    
+  }
+  
+.btn-form{
+    color:black;
+    border: 2px solid black;
+    background-color: rgb(55, 163, 55);
+    font-size: 15px;
+    width: 16%;
+    font-weight: 700;
+  }
+  .btn-form:hover{
+      background-color: rgb(17, 235, 17);
+  }
+  footer{
+      margin-left: 211px;
+      margin-bottom: 40px;
+      font-size: 24px;
+      font-weight: 600;
+  }
+  @media screen  and (max-width:1250px) and (min-width:1036px){
+     .navbar{
+         height:20vh;
+         top: 0;
+         padding: 0px;
+     }   
+    .logo{
+           width: 8%;
+           top: 22px;
+           left: 15px;
+       }
+       .menu{
+           padding: 50px;
+       }
+       .sectionmain{
+         flex-direction: column;
+        
+         height: 217vh;
+         /* border: 2px solid red; */
+         width: 60%;
+         position: relative;
+         left: 151px;
+         
+       }
+       .mainImage{
+           top: 50px;
+           height: auto;
+       }
+     .leftNav{
+        position: relative;
+        right: 72px;
+         /* border: 2px solid red; */
+         /* background-color:black; */
+     }
+  }
+ @media screen and (max-width:670px) and (min-width:330px) {
+     .navbar{
+         position: relative;
+         flex-direction: column;
+         height:210vh;
+         width: 147vh;
+         /* border: 2px solid red ; */
+         
+     }
+     .menu{
+         position: relative;
+         flex-direction: column;
+         margin-top: 2px;
+         padding: 0px;
+         /* border: 2px solid rgb(31, 196, 67) ; */
+     }
+     .leftNav{
+         position: relative;
+         flex-direction: column;
+         padding: 75px;
+         /* border: 2px solid rgb(91, 41, 156) ; */
+     }
+     
+    
+     
+     .logo{
+         left: -280px;
+         font-size: 44px;
+         
+     }
+     .menu a{
+         position: relative;
+         font-size: 34px;
+         padding: 77px;
+         padding-left: 111px;
+     }
+     .inputTextSearch{
+        position: relative;
+        font-size: 38px;
+        padding: 16px;
+        margin-right: -36px;
+        margin-bottom: 6px;
+     }
+     .btn{
+        position: relative;
+        font-size: 37px;
+        width: 100%;
+        font-weight: 600;
+        background-color: chartreuse;
+        margin-bottom: -60px;
+     }
+     .sectionmain{
+         position: relative;
+         height:147vh;
+         width: 212%;
+       
+        flex-direction: column;
+         /* border: 2px solid red; */
+     }
+     .mainText{
+         
+         /* border: 2px solid rgb(75, 42, 165); */
+         padding: 80px;
+         margin-top: 64px;
+     }
+     .sectionparaOne{
+        font-size: 60px;
+        font-weight: 200;
+        color: white;
+    }
+    .sectionparaTwo{
+        font-size: 60px;
+        font-weight: 600;
+        color: white;
+    } 
+     
+     .mainImage{
+         
+         /* border: 2px solid orange; */
+         height: 400px;
+         width: 500px;
+         margin: 20px;
+         
+     }
+     .btn-1{
+        position: relative;
+        font-size: 37px;
+        width: 100%;
+        font-weight: 600;         
+
+     }
+     .OurServices {
+        height: 100px;
+        width: 100%;
+        margin-left: 112px;
+        margin-top: 45px;
+        padding-top: 83px;
+        
+        /* text-shadow:3px 3px 1px rgba(0, 0, 0, 0.6); */
+     }
+     .OurServices h1{
+         font-size: 61px;
+     }
+     .travel{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        height:500px;
+        width: 500px;
+        margin-bottom: 80px;
+
+    }
+    .card img{
+        height: 350px;
+        width: 100%;
+        
+          }
+    .cardText{
+            height: 100px;
+            width: 100%;
+            
+        }
+        .cardText h1{
+            font-size: 62px;
+        }
+        .cardText h3{
+            font-size: 30px;
+        }
+
+        .contactform{
+            height: 800px;
+            width: 800px;
+            margin-left: 60px;
+            margin-top: 120px;
+            font-size: 35px;
+            
+        }
+        .container{
+            margin-top: 34px;
+            width: 100%;
+        }
+        .container input,textarea,button{
+     
+            
+            width: 75%;
+            /* left: 12px; */
+            margin: 12px 0;
+            padding: 10px 21px;
+            
+            border:1px solid black;
+            outline:rgba(12, 11, 11, 0.993);
+            
+            color: black;
+            font-size: 26px;
+            font-weight: 700;
+        
+      }
+      .container h3{
+          font-size: 29px;
+      }
+    footer{
+        width: 100%;
+    }
+    footer h2{
+        font-size: 21px;
+    }
+    
+ }
+
+
